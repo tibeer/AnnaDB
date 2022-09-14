@@ -63,6 +63,11 @@
     <label class="md-overlay" for="__drawer"></label>
     <div data-md-component="skip">
       
+        
+        <a href="#features" class="md-skip">
+          Skip to content
+        </a>
+      
     </div>
     <div data-md-component="announce">
       
@@ -206,6 +211,18 @@
   
 
       
+        
+  
+  
+
+
+  <li class="md-tabs__item">
+    <a href="roadmap/" class="md-tabs__link">
+      Road Map
+    </a>
+  </li>
+
+      
     </ul>
   </div>
 </nav>
@@ -252,9 +269,45 @@
       
       
       
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          About
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
       <a href="." class="md-nav__link md-nav__link--active">
         About
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#features" class="md-nav__link">
+    Features
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#links" class="md-nav__link">
+    Links
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
       
     </li>
   
@@ -511,6 +564,21 @@
   
 
     
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="roadmap/" class="md-nav__link">
+        Road Map
+      </a>
+    </li>
+  
+
+    
   </ul>
 </nav>
                   </div>
@@ -529,6 +597,28 @@
   
   
   
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#features" class="md-nav__link">
+    Features
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#links" class="md-nav__link">
+    Links
+  </a>
+  
+</li>
+      
+    </ul>
+  
 </nav>
                   </div>
                 </div>
@@ -545,15 +635,20 @@
 
 <p><img alt="" src="assets/img/logo_colored.svg" /></p>
 <p>Next-generation developer-first NoSQL database.</p>
-<p>AnnaDB moves familiar programming languages' patterns into the databases world to solve the problem of the relations: </p>
-<p><em>Every object and sub-object (item of a vector or map) that was stored in AnnaDB has a link id. This link can be placed as a field value of any other object and the database will fetch and process it automatically on all the operations without additional commands in queries.</em></p>
-<p>Features:</p>
+<p>AnnaDB is an in-memory data store with disk persistence. It can work as the main data storage and the cache layer as well. Rust lang under the hood makes it memory-safe and fast.</p>
+<h2 id="features">Features</h2>
 <ul>
-<li>Flexible object structure</li>
-<li>Relations</li>
-<li>Transactions</li>
+<li>Flexible object structure - simple primitives and complicated nested containers could be stored in AnnaDB</li>
+<li>Relations - you can link any object to another, and AnnaDB will resolve this relation on finds, updates, and other operations.</li>
+<li>Transactions - out of the box</li>
 </ul>
-<p>Read more in the <a href="documentation/introduction/">documentation</a>.</p>
+<h2 id="links">Links</h2>
+<ul>
+<li><a href="documentation/introduction/">Documentation</a></li>
+<li><a href="https://github.com/roman-right/AnnaDB">GitHub Repo</a></li>
+<li><a href="https://hub.docker.com/repository/docker/romanright/annadb">Docker Hub</a></li>
+<li><a href="https://discord.gg/s5TUAHkqv7">Discord Server</a></li>
+</ul>
 
               
             </article>
